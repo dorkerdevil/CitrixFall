@@ -19,7 +19,7 @@ nmap --script-updatedb
 To use this script, run the following command:
 
 ```shell
-nmap --script cve-2023-3519-checker --script-args checktype=service <target>
+nmap --script cve-2023-3519-checker --script-args checktype=service|vuln <target>
 ```
 
 Replace <target> with the IP address or hostname you want to scan.
